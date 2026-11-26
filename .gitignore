@@ -1,0 +1,9 @@
+target/
+.env*
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+CLAUDE.local.md
+.claude/settings.local.json

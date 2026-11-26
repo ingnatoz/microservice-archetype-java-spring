@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-settings.json",
+  "permissions": {
+    "allow": [
+      "Bash(make help)",
+      "Bash(make lint)",
+      "Bash(make format)",
+      "Bash(make test)",
+      "Bash(make build)",
+      "Bash(make lint test build)"
+    ],
+    "ask": ["Bash(git push:*)"],
+    "deny": ["Read(./**/.env)", "Read(./**/.env.*)"]
+  }
+}
